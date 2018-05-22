@@ -15,8 +15,8 @@ public class TestHomePage extends WebBaseTest {
     @BeforeMethod
     public void setup() {
         DriverManagerFactory.getManager(DriverType.CHROME).initalizeDriver();
-        this.login();
-        this.homePage = new HomePage(DriverManager.getDriver());
+        TestHelper.login(getEnvironmentURLRepository().getString("BLUESOURCE_QA"), "company.admin", "abcdefg");
+        this.homePage = new HomePage();
     }
 
     @AfterMethod
@@ -29,15 +29,5 @@ public class TestHomePage extends WebBaseTest {
         homePage.enterSearchBarText("qqqq");
 
         Assert.assertTrue(homePage.getFirstEmployeeName().equals("qqqq wwww"));
-    }
-
-    /**
-     * TODO: Refactor to package helper class (?)
-     */
-    private void login() {
-        DriverManager.getDriver().get(getEnvironmentURLRepository().getString("BLUESOURCE_QA"));
-        LoginPage loginpage = new LoginPage(DriverManager.getDriver());
-
-        loginpage.login("company.admin", "abcdefg");
     }
 }

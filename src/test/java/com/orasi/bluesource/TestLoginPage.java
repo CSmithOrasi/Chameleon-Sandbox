@@ -22,7 +22,7 @@ public class TestLoginPage extends WebBaseTest {
     @Test
     public void login() {
         DriverManager.getDriver().get(getEnvironmentURLRepository().getString("BLUESOURCE_QA"));
-        LoginPage loginpage = new LoginPage(DriverManager.getDriver());
+        LoginPage loginpage = new LoginPage();
 
         boolean logInSuccessful = loginpage.login("company.admin", "abcdefg");
 

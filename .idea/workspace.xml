@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a32b68bf-bf07-4e2e-8649-dc15f1e5becc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/orasi/bluesource/AccountsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/orasi/bluesource/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/orasi/bluesource/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/orasi/bluesource/TestAccountsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/orasi/bluesource/TestHomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/orasi/bluesource/TestLoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/windows/IEDriverServer.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/windows/MicrosoftWebDriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/windows/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/drivers/windows/chromedriver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/windows/geckodriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/EnvironmentURLs.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/EnvironmentURLs.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/orasi/Sandbox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/orasi/Sandbox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/sandbox.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/sandbox.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a32b68bf-bf07-4e2e-8649-dc15f1e5becc" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
