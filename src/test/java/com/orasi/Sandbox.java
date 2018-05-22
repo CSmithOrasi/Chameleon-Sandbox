@@ -12,11 +12,11 @@ public class Sandbox extends WebBaseTest {
 
     @BeforeMethod
     public void setup() {
-        DriverManagerFactory.getManager(DriverType.FIREFOX).initalizeDriver();
+        DriverManagerFactory.getManager(DriverType.CHROME).initalizeDriver();
     }
 
     @Test
-    public void getAllSelectedOptions() {
+    public void openBrowserSearchForOrasi() {
         launchSite();
         searchForOrasi();
     }
@@ -28,8 +28,8 @@ public class Sandbox extends WebBaseTest {
     public void searchForOrasi() {
         // Create local instance of OrasiDriver for easier usage
         OrasiDriver driver = DriverManager.getDriver();
-        driver.findTextbox(By.xpath("//input[@title='Search']")).set("Orasi");
-        driver.findButton(By.name("btnK")).click();
+        driver.findTextbox(By.xpath("//input[@title='Search']")).sendKeys("Orasi");
+        driver.findButton(By.xpath("//input[@value='Google Search']")).click();
         driver.findLink(By.partialLinkText("Orasi Software, Inc.")).syncVisible();
     }
 
