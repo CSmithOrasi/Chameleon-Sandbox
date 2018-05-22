@@ -29,8 +29,6 @@ public class TestAccountsPage extends WebBaseTest {
 
     @Test
     public void addAccount() {
-    	this.accountsPage.addAccount();
-    	
-    	Assert.assertTrue(DriverManager.getDriver().getCurrentUrl().contains("/accounts"));
+    	Assert.assertTrue(this.accountsPage.addAccount());
     }
 }
